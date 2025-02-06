@@ -1,0 +1,38 @@
+{
+  "name": "datascreenscale1",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@dataview/datav-vue3": "0.0.0-test.1672506674342",
+    "@kjgl77/datav-vue3": "^1.7.2",
+    "axios": "^1.6.8",
+    "echarts": "^5.5.0",
+    "element-plus": "^2.9.3",
+    "mockjs": "^1.1.0",
+    "postcss-px-to-viewport": "^1.1.1",
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.0",
+    "vuex": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/echarts": "^5.0.0",
+    "@types/node": "^17.0.21",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "@vue/tsconfig": "^0.7.0",
+    "typescript": "~5.7.2",
+    "vite": "^6.1.0",
+    "vue-tsc": "^2.2.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ]
+}

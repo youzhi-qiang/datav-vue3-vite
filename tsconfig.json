@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "esnext",            // 或者使用 "es2015" 等目标版本
+    "module": "esnext",            // 使用 ES6 模块系统
+    "moduleResolution": "node",    // 使用 Node.js 模块解析规则
+    "strict": true,                // 启用所有严格类型检查选项
+    "esModuleInterop": true,       // 允许与 CommonJS 模块互操作
+    "skipLibCheck": true,          // 跳过库文件的类型检查
+    "types": ["vue"],              // 显式指定包括 vue 类型
+    "typeRoots": ["node_modules/@types"], // 指定类型声明的路径
+    "baseUrl": "./",
+    "paths": {
+      "@/*": [
+        "src/*"
+      ]
+    },
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.d.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue",
+    "axios"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
+ 
